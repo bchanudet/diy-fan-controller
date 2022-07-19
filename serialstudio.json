@@ -1,0 +1,104 @@
+{
+    "frameEnd": "",
+    "frameStart": "",
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarm": 80,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Temp0",
+                    "units": "°",
+                    "value": "%1",
+                    "widget": ""
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Temp1",
+                    "units": "°",
+                    "value": "%2",
+                    "widget": ""
+                }
+            ],
+            "title": "Temps",
+            "widget": "multiplot"
+        },
+        {
+            "datasets": [
+                {
+                    "alarm": 1023,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 1023,
+                    "min": 0,
+                    "title": "Fan0",
+                    "units": "",
+                    "value": "%3",
+                    "widget": "gauge"
+                },
+                {
+                    "alarm": 1023,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 1023,
+                    "min": 0,
+                    "title": "Fan1",
+                    "units": "",
+                    "value": "%4",
+                    "widget": "gauge"
+                },
+                {
+                    "alarm": 360,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 1023,
+                    "min": 0,
+                    "title": "Fan2",
+                    "units": "",
+                    "value": "%5",
+                    "widget": "gauge"
+                },
+                {
+                    "alarm": 1023,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 1023,
+                    "min": 0,
+                    "title": "Fan3",
+                    "units": "",
+                    "value": "%6",
+                    "widget": "gauge"
+                }
+            ],
+            "title": "PWM",
+            "widget": "multiplot"
+        }
+    ],
+    "separator": "",
+    "title": "rheobus"
+}
